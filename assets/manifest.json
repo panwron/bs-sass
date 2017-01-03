@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "main.js": {
+      "files": [
+        "scripts/main.js",
+        "scripts/animations.js",
+        "scripts/views.js"
+
+      ],
+      "bower": ["bootstrap-sass"],
+      "main": true
+    },
+    "main.css": {
+      "files": [
+        "styles/main.scss"
+      ],
+      "bower": ["bootstrap-sass"],
+      "main": true
+    }
+  },
+  "config": {
+    "devUrl": "http://iga.dev"
+  }
+}
